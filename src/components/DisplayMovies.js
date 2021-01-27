@@ -11,7 +11,7 @@ function DisplayMovies(props) {
           return <MovieCard movie={movie} key={movie.imdbID} />;
         })
       ) : (
-        <h1>ERRRROOOORRRr</h1>
+        <h1>Wrong searchword, try again!</h1>
       )}
     </div>
   );

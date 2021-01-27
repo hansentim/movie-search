@@ -12,9 +12,6 @@ function MovieCard({ movie }) {
         <p>
           <small>Year: {movie.Year}</small>
         </p>
-        <p>
-          <small>Plot: {movie.Type}</small>
-        </p>
       </div>
     </div>
   );

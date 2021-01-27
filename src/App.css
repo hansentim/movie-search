@@ -11,8 +11,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(244, 244, 244);
-  color: #333;
+  background-color: rgb(17, 17, 17);
+  color: white;
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -52,13 +52,14 @@ small {
   border-radius: 20px;
   border: 1px solid #ddd;
   margin-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0.883);
 }
 
 .button {
-  background-color: rgba(0, 0, 0, 0.75);
+  background-color: #ffba08;
   padding: 1rem 2rem;
-  border: 1px solid rgba(0, 0, 0, 0.75);
-  color: white;
+  border: 1px solid #ffba08;
+  color: rgb(51, 51, 51);
   cursor: pointer;
   border-radius: 20px;
   font-size: 1.4rem;
@@ -66,7 +67,7 @@ small {
 }
 
 .button:hover {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: #faa307;
 }
 
 .card-list {
@@ -76,10 +77,11 @@ small {
 .card {
   padding: 2rem 4rem;
   border-radius: 10px;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: -6px -6px 0px 0px rgba(255, 186, 8, 1);
   margin-bottom: 2rem;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.883);
   text-align: center;
+  color: rgb(51, 51, 51);
 }
 
 .card--title {
@@ -90,6 +92,7 @@ small {
 .card--image {
   margin: 0 auto;
   display: block;
+  box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 @media (min-width: 768px) {
