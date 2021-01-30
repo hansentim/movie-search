@@ -49,7 +49,7 @@ small {
   font-size: 1.6rem;
   padding: 0.5rem 2rem;
   line-height: 2.8rem;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 1px solid #ddd;
   margin-bottom: 1rem;
   background-color: rgba(255, 255, 255, 0.883);
@@ -61,7 +61,7 @@ small {
   border: 1px solid #ffba08;
   color: rgb(51, 51, 51);
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 7px;
   font-size: 1.4rem;
   transition: background-color 250ms;
 }
@@ -76,9 +76,9 @@ small {
 
 .card {
   padding: 2rem 4rem;
-  border-radius: 10px;
-  box-shadow: -6px -6px 0px 0px rgba(255, 186, 8, 1);
-  margin-bottom: 2rem;
+  border-radius: 7px;
+  box-shadow: 0px 0px 0px 8px rgba(255, 186, 8, 1);
+  margin-bottom: 4rem;
   background-color: rgba(255, 255, 255, 0.883);
   text-align: center;
   color: rgb(51, 51, 51);
